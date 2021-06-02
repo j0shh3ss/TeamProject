@@ -1,3 +1,4 @@
+package DungeonSource;
 
 
 /**
@@ -9,7 +10,7 @@
  * @version 1.0
  */
 
-public class Thief extends Hero
+public class Thief extends HeroFactory
 {
 
     public Thief()
