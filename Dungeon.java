@@ -53,11 +53,11 @@ public class Dungeon
 
 		do
 		{
-		    theHero = chooseHero();
-		    theMonster = generateMonster();
-			battle(theHero, theMonster);
+		    theHero = HeroFactory.chooseHero();
+		    theMonster = MonsterFactory.generateMonster();
+			DungeonMechanics.battle(theHero, theMonster);
 
-		} while (playAgain());
+		} while (DungeonMechanics.playAgain());
 
     }//end main method
 
