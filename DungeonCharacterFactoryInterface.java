@@ -7,7 +7,7 @@ public class DungeonCharacterFactoryInterface {
     protected int damageMax;
     //protected stuff because i want to encapsolate it
 
-    public DungeonCharacterStats(String name, int hitPoints, int attackSpeed, int damageMin, int damageMax, double chanceToHit)
+    public DungeonCharacterStats(String name, int hitPoints, int attackSpeed, int damageMin, int damageMax, double chanceToHit, double chanceToBlock)
     {
 
         this.name = name;
@@ -16,6 +16,7 @@ public class DungeonCharacterFactoryInterface {
         this.damageMin = damageMin;
         this.damageMax = damageMax;
         this.chanceToHit = chanceToHit;
+        this.chanceToBlock = chanceToBlock;
  
     }
 }
