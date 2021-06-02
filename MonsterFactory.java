@@ -5,12 +5,6 @@ public class MonsterFactory extends Monster {
         super(name, hitPoints, attackSpeed, chanceToHit, chanceToHeal, damageMin, damageMax, minHeal, maxHeal);
     }
 
-	/*-------------------------------------------------------------------
-            generateMonster randomly selects a dungeon.Monster and returns it.  It utilizes
-            a polymorphic reference (dungeon.Monster) to accomplish this task.
-            This was moved from Dungeon to dungeon.MonsterFactory to create monsters.
-            ---------------------------------------------------------------------*/
-
     public static Monster generateMonster()
     {
         int choice;
