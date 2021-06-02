@@ -1,3 +1,4 @@
+package DungeonSource;
 
 
 /**
@@ -12,7 +13,7 @@
 
 
 
-public class Warrior extends Hero
+public class Warrior extends HeroFactory
 {
 
     public Warrior()
