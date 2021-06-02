@@ -22,6 +22,6 @@ public class MonsterFactory extends Monster {
             default: System.out.println("invalid choice, returning dungeon.Skeleton");
                 return new Skeleton();
 
-        }//end switch
-    }//end generateMonster method
-}//end of MonsterFactory class
+        }
+    }
+}
